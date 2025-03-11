@@ -1,10 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Body Styling */
 body {
   background-color: rgb(220, 173, 85);
-  padding: 0;
-  margin: 0;
 }
+
+/* Header Styling */
 header {
   width: 100%;
+  padding: 10px 20px;
+  background-color: #be5103; /* A neutral background for the header */
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container for header content */
+.header-block {
+  width: 100%;
+  max-width: 1200px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo Section */
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image img {
+  height: 50px;
+  width: auto;
+}
+
+.logo-name h2 {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+/* Navigation Menu */
+.header-menu nav {
+  display: flex;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover and Focus States */
+.menu-link:hover,
+.menu-link:focus {
+  background-color: #094b72;
+  color: #fff;
+  font-weight: bold;
 }
