@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(220, 173, 85);
+  padding: 0;
+  margin: 0;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
