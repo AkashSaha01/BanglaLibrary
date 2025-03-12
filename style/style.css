@@ -189,6 +189,26 @@ header {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+.muktijuddo-area {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.muktijuddo-section {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.muktijuddo-left {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .muktijuddo-image {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -204,8 +224,8 @@ header {
 }
 
 .mukto-card img {
-  width: 100%;
-  height: auto;
+  height: 150px;
+  width: auto;
   border-radius: 8px;
 }
 .muktijuddo-book-cards {
