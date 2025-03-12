@@ -13,16 +13,15 @@ body {
 header {
   width: 100%;
   padding: 10px 20px;
-  background-color: #be5103; /* A neutral background for the header */
-  border-bottom: 1px solid #eee;
+  background-color: #ffffff; /* A neutral background for the header */
+
   display: flex;
   justify-content: center;
 }
 
 /* Container for header content */
 .header-block {
-  width: 100%;
-  max-width: 1200px;
+  width: 70%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,8 +40,9 @@ header {
 
 .logo-name h2 {
   margin-left: 10px;
+  font-weight: bold;
   font-size: 1.5rem;
-  color: #ffffff;
+  color: #a04c06;
 }
 
 /* Navigation Menu */
@@ -62,16 +62,134 @@ header {
 
 .menu-link {
   text-decoration: none;
-  color: #333;
+  color: #673c01;
   padding: 10px 15px;
   border-radius: 4px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Hover and Focus States */
+
 .menu-link:hover,
 .menu-link:focus {
-  background-color: #094b72;
+  background-color: #673c01;
   color: #fff;
   font-weight: bold;
+}
+.search-icon{
+color:#673c01;
+padding-top:4px;
+  padding-left: 10px;
+}
+.rabindranath-area {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center; /* This centers the block horizontally */
+  align-items: center; /* This centers the block vertically */
+  padding: 0px;
+  color: rgb(153, 66, 7);
+}
+
+.rabindranath-block {
+  width: 70%;
+  display: flex;
+  justify-content: space-between; /* This ensures the left and right blocks are spaced out */
+  align-items: center;
+  text-align: center;
+}
+
+.rabindranath-block-left {
+  font-size: 3rem; /* Corrected from font-weight to font-size */
+}
+.image-cicle img{
+height:250px;
+width:auto;
+}
+.translated-area{
+  width: 100%;
+  background-color: hsl(19, 50%, 23%);
+  display: flex;
+  justify-content: center; /* This centers the block horizontally */
+  align-items: center; /* This centers the block vertically */
+  padding: 0px;
+  
+}
+
+.translated-block {
+  background-color: hsl(19, 50%, 23%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+}
+.translated-headline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.translated-headline h3 {
+  width:30%;
+  margin: 0; /* Remove default margin */
+  padding: 5px 20px;
+  background-color: orange;
+  color: hsl(19, 50%, 23%);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.books-collection {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 3 columns */
+  grid-gap: 20px; /* Space between cards */
+  padding: 20px;
+}
+
+.book-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.book-card img {
+  height:175px;
+  width:auto;
+  border-radius: 8px;
+  object-fit: cover; /* Ensures the image fits inside the card */
+}
+
+.book-info {
+  padding: 2px;
+}
+
+.book-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  
+}
+
+.book-rating {
+  color: #f39c12; /* Yellow color for rating stars */
+}
+
+.book-price {
+  font-size: 1.1rem;
+  color: #2ecc71; /* Green color for price */
+ 
+}
+
+.add-to-cart {
+  background-color: #794902; /* Blue color for button */
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
