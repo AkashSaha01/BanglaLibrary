@@ -68,16 +68,15 @@ header {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-
 .menu-link:hover,
 .menu-link:focus {
   background-color: #673c01;
   color: #fff;
   font-weight: bold;
 }
-.search-icon{
-color:#673c01;
-padding-top:4px;
+.search-icon {
+  color: #673c01;
+  padding-top: 4px;
   padding-left: 10px;
 }
 .rabindranath-area {
@@ -101,18 +100,17 @@ padding-top:4px;
 .rabindranath-block-left {
   font-size: 3rem; /* Corrected from font-weight to font-size */
 }
-.image-cicle img{
-height:250px;
-width:auto;
+.image-cicle img {
+  height: 250px;
+  width: auto;
 }
-.translated-area{
+.translated-area {
   width: 100%;
   background-color: hsl(19, 50%, 23%);
   display: flex;
   justify-content: center; /* This centers the block horizontally */
   align-items: center; /* This centers the block vertically */
   padding: 0px;
-  
 }
 
 .translated-block {
@@ -123,13 +121,13 @@ width:auto;
   text-align: center;
   padding: 15px;
 }
-.translated-headline{
+.translated-headline {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .translated-headline h3 {
-  width:30%;
+  width: 30%;
   margin: 0; /* Remove default margin */
   padding: 5px 20px;
   background-color: orange;
@@ -157,8 +155,8 @@ width:auto;
 }
 
 .book-card img {
-  height:175px;
-  width:auto;
+  height: 175px;
+  width: auto;
   border-radius: 8px;
   object-fit: cover; /* Ensures the image fits inside the card */
 }
@@ -170,7 +168,6 @@ width:auto;
 .book-title {
   font-size: 1.2rem;
   font-weight: bold;
-  
 }
 
 .book-rating {
@@ -180,7 +177,6 @@ width:auto;
 .book-price {
   font-size: 1.1rem;
   color: #2ecc71; /* Green color for price */
- 
 }
 
 .add-to-cart {
@@ -192,4 +188,67 @@ width:auto;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+}
+.muktijuddo-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* Adjust the spacing between cards */
+  padding: 10px;
+}
+
+.mukto-card {
+  background: #f0f0f0; /* Light gray background */
+  padding: 5px;
+  border-radius: 8px; /* Rounded corners */
+  text-align: center;
+}
+
+.mukto-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.muktijuddo-book-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 20px; /* Spacing between cards */
+  padding: 20px;
+}
+.mukti-book-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+.mukti-book-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.mukti-book-title {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #333;
+}
+.mukti-book-price {
+  font-size: 1rem;
+  color: #e63946;
+  font-weight: bold;
+}
+
+.mukti-book-rating {
+  font-size: 1rem;
+  color: #ffb400;
+}
+.mukti-add-to-cart {
+  background-color: #094b72;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
 }
