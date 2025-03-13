@@ -6,14 +6,14 @@
 
 /* Global Body Styling */
 body {
-  background-color: rgb(220, 173, 85);
+  background-color: rgb(255, 255, 255);
 }
 
 /* Header Styling */
 header {
   width: 100%;
   padding: 10px 20px;
-  background-color: #ffffff; /* A neutral background for the header */
+  background-color: #ffffff; 
 
   display: flex;
   justify-content: center;
@@ -79,26 +79,87 @@ header {
   padding-top: 4px;
   padding-left: 10px;
 }
+.hero-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:hsl(19, 50%, 23%);
+}
+.hero-area{
+  background-color: #f9f4e1;
+}
+.hero-left{
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width:65%;
+  color:rgb(242, 242, 204);
+  background-color:hsl(19, 50%, 23%);
+}
+.hero-left h1{
+ padding:10px 80px;
+  color:rgb(247, 248, 223);
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.hero-left p{
+  padding:10px 80px
+}
+.hero-right{
+  width:40%;
+  background-color: #f9f4e1!important;
+}
+.hero-right img{
+  
+  height:500px;
+  width:auto;
+}
 .rabindranath-area {
   width: 100%;
   background-color: #ffffff;
   display: flex;
-  justify-content: center; /* This centers the block horizontally */
-  align-items: center; /* This centers the block vertically */
+  justify-content: center; 
+  align-items: center; 
   padding: 0px;
   color: rgb(153, 66, 7);
 }
+.islamic-area{
+  display: flex;
+  justify-content: center;
 
+  width: 100%;
+  background-color: #f9f4e1;
+}
+.islamic-section{
+display: flex;
+justify-content: center;
+text-align: center;
+width: 65%;
+}
+.islamic-left{
+  color:#583701;
+}
+.islamic-left img{
+  height:200px;
+  width:auto;
+}
+.islamic-right{
+  display: flex;
+flex-direction: column;
+  justify-content: center;
+  color:#583701;
+}
 .rabindranath-block {
   width: 70%;
   display: flex;
-  justify-content: space-between; /* This ensures the left and right blocks are spaced out */
+  justify-content: space-between; 
   align-items: center;
   text-align: center;
 }
 
 .rabindranath-block-left {
-  font-size: 3rem; /* Corrected from font-weight to font-size */
+  font-size: 3rem; 
 }
 .image-cicle img {
   height: 250px;
@@ -108,8 +169,8 @@ header {
   width: 100%;
   background-color: hsl(19, 50%, 23%);
   display: flex;
-  justify-content: center; /* This centers the block horizontally */
-  align-items: center; /* This centers the block vertically */
+  justify-content: center; 
+  align-items: center; 
   padding: 0px;
 }
 
@@ -128,7 +189,7 @@ header {
 }
 .translated-headline h3 {
   width: 30%;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
   padding: 5px 20px;
   background-color: orange;
   color: hsl(19, 50%, 23%);
@@ -138,8 +199,8 @@ header {
 
 .books-collection {
   display: grid;
-  grid-template-columns: repeat(7, 1fr); /* 3 columns */
-  grid-gap: 20px; /* Space between cards */
+  grid-template-columns: repeat(7, 1fr); 
+  grid-gap: 20px; 
   padding: 20px;
 }
 
@@ -171,7 +232,7 @@ header {
 }
 
 .book-rating {
-  color: #f39c12;
+  color: #905a03;
 }
 
 .book-price {
@@ -197,37 +258,54 @@ header {
   align-items: center;
 }
 .muktijuddo-section {
-  width: 70%;
+  width: 80%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-content: center;
+  gap:20px;
 }
 .muktijuddo-left {
-  padding-top: 25px;
+  padding-top: 75px;
   width: 35%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
+
 .muktijuddo-image {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   padding: 0;
 }
-
+.muktijuddo-headline{
+  display: flex;
+  justify-content: center;
+  color:#794902;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
 .mukto-card {
   background: #f0f0f0;
-  padding: 5px;
+  padding: 2px;
   border-radius: 8px;
   text-align: center;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+.muktijuddo-right{
+  padding :10px;
+}
 .mukto-card img {
-  height: 150px;
+  height: 120px;
   width: auto;
   border-radius: 8px;
+}
+#mukti{
+  width: 200px;
+}
+#sriti{
+  width:200px;
 }
 .muktijuddo-book-cards {
   display: grid;
@@ -244,8 +322,8 @@ header {
   transition: transform 0.2s ease-in-out;
 }
 .mukti-book-card img {
-  width: 100%;
-  height: 200px;
+  width:auto;
+  height: 150px;
   object-fit: cover;
   border-radius: 5px;
 }
@@ -260,16 +338,77 @@ header {
   font-weight: bold;
 }
 
-.mukti-book-rating {
+.mukti-book-rating{
   font-size: 1rem;
-  color: #ffb400;
+  color: #583701;
+  padding-bottom:5px;
 }
 .mukti-add-to-cart {
-  background-color: #094b72;
+  background-color: #794902;
   color: white;
   border: none;
-  padding: 10px;
-  width: 100%;
+ padding:2px;
+  width: 80%;
   border-radius: 5px;
   cursor: pointer;
+}
+.minimal-footer {
+  background-color:#673c01;
+  color: rgb(236, 236, 206);
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Footer Top */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Footer Left */
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-left img {
+  height: 40px;
+  width: auto;
+}
+
+.footer-left h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Footer Right (Social Icons) */
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-right p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.footer-right i {
+  font-size: 1.2rem;
+  color: rgb(241, 243, 210);
+  transition: color 0.3s ease, transform 0.2s;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 0.85rem;
 }
