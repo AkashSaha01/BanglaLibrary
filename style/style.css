@@ -1,3 +1,6 @@
+@import url("https://fonts.maateen.me/bensen-handwriting/font.css");
+@import url("https://fonts.maateen.me/charu-chandan-3d/font.css");
+@import url("https://fonts.maateen.me/baloo-da-2/font.css");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,7 +17,8 @@ header {
   width: 100%;
   padding: 10px 20px;
   background-color: #ffffff;
-
+  font-family: "Baloo Da 2", sans-serif;
+  font-size: 1.25rem;
   display: flex;
   justify-content: center;
   position: sticky;
@@ -82,6 +86,7 @@ header {
   padding-left: 10px;
 }
 .hero-block {
+  font-family: "Tiro Bangla", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,6 +122,7 @@ header {
   width: auto;
 }
 .rabindranath-area {
+  font-family: "BenSen Handwriting", cursive;
   width: 100%;
   background-color: #ffffff;
   display: flex;
@@ -133,6 +139,7 @@ header {
   background-color: #f9f4e1;
 }
 .islamic-section {
+  font-family: "Nikosh", sans-serif;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -140,8 +147,10 @@ header {
 }
 .islamic-left {
   color: #583701;
+  font-family: "Nikosh", sans-serif;
 }
 .islamic-left h3 {
+  font-family: "Nikosh", sans-serif;
   padding-bottom: 10px;
 }
 .islamic-left img {
@@ -241,7 +250,7 @@ header {
 
 .book-price {
   font-size: 1.1rem;
-  color: #2ecc71;
+  color: #6e1202;
 }
 
 .add-to-cart {
@@ -357,6 +366,7 @@ header {
   cursor: pointer;
 }
 .minimal-footer {
+  font-family: "Charu Chandan 3D", sans-serif;
   background-color: #673c01;
   color: rgb(236, 236, 206);
   padding: 20px 0;
@@ -377,6 +387,7 @@ header {
 
 /* Footer Left */
 .footer-left {
+  font-family: "Charu Chandan 3D", sans-serif;
   display: flex;
   align-items: center;
   gap: 10px;
